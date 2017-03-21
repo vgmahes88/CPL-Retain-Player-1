@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Square721BT-BoldExtended';
+  src: url('../fonts/Square721BT-BoldExtended.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/Square721BT-BoldExtended.woff') format('woff'),
+	   url('../fonts/Square721BT-BoldExtended.ttf')  format('truetype'), 
+	   url('../fonts/Square721BT-BoldExtended.svg#Square721BT-BoldExtended') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EdoSZ';
+  src: url('../fonts/EdoSZ.eot?#iefix') format('embedded-opentype'),  
+	   url('../fonts/EdoSZ.woff') format('woff'), 
+	   url('../fonts/EdoSZ.ttf')  format('truetype'), 
+	   url('../fonts/EdoSZ.svg#EdoSZ') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	font-family: 'Square721BT-BoldExtended';
+	
+}
+.player_rtc
+{
+	width: 1920px;
+	height: 1080px;
+	background-image: url('../img/bg.jpg');
+	background-size: 100% 100%;
+}
+.row-centered 
+{
+	text-align:center;	
+	margin-bottom: 20px;
+}
+.retain_left
+{
+	display: flex;
+	align-items: center;	
+}
+.col-centered 
+{
+	display:inline-block;
+	float:none;
+	text-align:left;
+}
+.col-fixed 
+{
+	width:335px;
+	
+}
+.rt_player_frame
+{
+	background-image:url("../img/player-bg.png");
+	background-size:100% 100%;
+	height:292px;
+	
+}
+.rt_player_dt figure figcaption h4,
+.rt_player_dt figure figcaption h5
+{
+	text-transform:uppercase;
+}
+.rt_player_dt_des
+{
+	background-image:url("../img/red-splash copy.png");
+	background-size:100% 100%;
+	height:150px;
+}
+.rt_player_dt_des
+{
+	
+}
+.rt_player_dt_des h5
+{
+	
+}
+.rt_player_dt_des h5,
+.rt_player_dt_des h4
+{
+	color:#fff;
+}
+.rt_player_dt_des h5
+{
+	font-size: 23px;
+	left: 10px;
+	position: relative;
+	padding-top: 44px;
+	margin-bottom: 3px;
+}
+.rt_player_dt_des h4
+{
+	font-size: 37px;
+	margin-top: 0px;
+	position: relative;
+	right: 3px;
+}
+.rtplayer_footer
+{
+	background-image:url("../img/footer-bg.png");
+	background-size:100% 100%;
+	height:77px;
+}
+.rtplayer_footer
+{
+ vertical-align:middle;	
+ 
+}
+.rtp_left h3
+{
+	font-size:55px;
+	margin-top:8px;
+}
+.rtp_right h4
+{
+	font-size:65px;
+	font-family: 'EdoSZ';
+	margin-top:0px;
+}
+.rtp_left h3,.rtp_right h4
+{
+	text-transform:uppercase;
+	color:#fff;
+}
+.rtp_right
+{
+	float:right;
+}
+.rtpl_header
+{
+ height:60px;	
+}
+.rtplayer_left_cc
+{
+	padding-left:0px;
+	height: 945px;
+}
+.retain_left
+{
+	margin-top: 31%;
+	left: 11%;
+	position: relative;
+}
